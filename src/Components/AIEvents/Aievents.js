@@ -274,8 +274,6 @@ export default function Aievents() {
         </div>
         <div className={styles.div46}>
           <div className={styles.inputDropdown}>
-           
-           
             <select id="detection-models" name="detection-models">
               <option value="model1">All detection models</option>
               <option value="model2">Motion detection </option>
