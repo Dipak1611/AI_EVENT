@@ -282,6 +282,7 @@ export default function Aievents() {
               <option value="model4">Detection Model 4</option>
               <option value="model5">Detection Model 5</option>
             </select>
+            
           </div>
           <div className={styles.clear}>clear</div>
         </div>
