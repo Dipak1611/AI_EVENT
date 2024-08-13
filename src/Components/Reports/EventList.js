@@ -21,7 +21,6 @@ const EventList = () => {
           <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c111f041cdbb96efb6c26aa46c394cc7846854ab5e5b4940920a5e18f3727d3?placeholderIfAbsent=true&apiKey=56fd99c2cc99464c8d941c32919aba73" alt="" className={styles.downloadIcon} />
         </button>
       </div>
-      
       <ul className={styles.eventList}>
         {events.map((event, index) => (
           <li key={index} className={styles.eventItem}>
