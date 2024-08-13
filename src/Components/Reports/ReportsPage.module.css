@@ -1,0 +1,112 @@
+.reportsPage {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 29px 73px 29px 0;
+  margin-inline:200px 200px;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1403px;
+  gap: 20px;
+}
+
+.mainContent {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.reportHeader {
+  display: flex;
+  width: 100%;
+  /* max-width: px; */
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.reportTitle {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.reportSubtitle {
+  color: #475467;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.reportNav {
+  display: flex;
+}
+
+.navButton {
+  border: 1px solid #d0d5dd;
+  background-color: #fff;
+  color: #344054;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.navButton.active {
+  background-color: #faf6ff;
+}
+
+.filterSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.filterGroup {
+  display: flex;
+  gap: 23px;
+}
+
+.dropdown {
+  min-width: 120px;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #6b7280;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.navLink {
+  color: #475467;
+  font-weight: 400;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.metricGroup {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 29px;
+}
+
+@media (max-width: 991px) {
+  .reportsPage {
+    padding-right: 20px;
+  }
+
+  .contentWrapper,
+  .reportHeader {
+    max-width: 100%;
+  }
+}

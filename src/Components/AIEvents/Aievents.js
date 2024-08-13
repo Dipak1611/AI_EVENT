@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../Aievents.module.css";
+import styles from "./Aievents.module.css";
 
 export default function Aievents() {
   const [currentDate, setCurrentDate] = useState(new Date());

@@ -1,0 +1,52 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 104px;
+    color: #000;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .highlight {
+    background-color: #f5f4ff;
+    position: absolute;
+    top: 104px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    z-index: 1;
+  }
+  
+  .menuList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+  }
+  
+  .menuItem {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 14px 32px;
+    cursor: pointer;
+  }
+  
+  .menuIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .menuLabel {
+    white-space: nowrap;
+  }
+  
+  @media (max-width: 991px) {
+    .sidebar {
+      padding-top: 100px;
+    }
+  
+    .menuLabel {
+      white-space: initial;
+    }
+  }
